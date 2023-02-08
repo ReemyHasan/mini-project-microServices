@@ -23,7 +23,7 @@ public class InventoryServiceApplication {
 
 			Inventory inventory1 = new Inventory();
 			inventory1.setCode("Samsung");
-			inventory1.setQuantity(2);
+			inventory1.setQuantity(0);
 			inventoryRepo.save(inventory);
 			inventoryRepo.save(inventory1);
 		};
