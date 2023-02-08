@@ -21,7 +21,7 @@ import java.util.UUID;
 @Transactional
 public class OrderService {
     private final OrderRepo orderRepo;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
     public void placeOrder(OrderRequest orderRequest){
         Order order = new Order();
@@ -35,8 +35,8 @@ public class OrderService {
                 OrderLineItem::getCode
         ).toList();
         // Call Inventory Service aSynchronously and accept order if there is the ordered amount of it in Stock
-        InventoryResponse[] res = webClient.get()
-                .uri("http://localhost:8082/api/inventory",
+        InventoryResponse[] res = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory",
                         uriBuilder -> uriBuilder.queryParam("code",OrderListCodes).build())
                 .retrieve()
                         .bodyToMono(InventoryResponse[].class)
