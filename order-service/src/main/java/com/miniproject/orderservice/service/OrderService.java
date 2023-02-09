@@ -7,6 +7,7 @@ import com.miniproject.orderservice.model.Order;
 import com.miniproject.orderservice.model.OrderLineItem;
 import com.miniproject.orderservice.repository.OrderRepo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
