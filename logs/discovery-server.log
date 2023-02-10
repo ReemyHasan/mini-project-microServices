@@ -1,0 +1,297 @@
+15:05:25.345 INFO  Starting DiscoveryServerApplication using Java 17.0.5 with PID 10376 (C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project\discovery-server\target\classes started by Reem in C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project)
+15:05:25.357 INFO  No active profile set, falling back to 1 default profile: "default"
+15:05:30.421 INFO  BeanFactory id=d39c9e89-28a0-300b-9499-408f1cc051e6
+15:05:31.525 INFO  Tomcat initialized with port(s): 8761 (http)
+15:05:31.605 INFO  Initializing ProtocolHandler ["http-nio-8761"]
+15:05:31.609 INFO  Starting service [Tomcat]
+15:05:31.611 INFO  Starting Servlet engine: [Apache Tomcat/10.1.5]
+15:05:32.080 INFO  Initializing Spring embedded WebApplicationContext
+15:05:32.082 INFO  Root WebApplicationContext: initialization completed in 6432 ms
+15:05:36.343 INFO  Using JSON encoding codec LegacyJacksonJson
+15:05:36.346 INFO  Using JSON decoding codec LegacyJacksonJson
+15:05:36.853 INFO  Using XML encoding codec XStreamXml
+15:05:36.853 INFO  Using XML decoding codec XStreamXml
+15:05:40.240 INFO  Cannot determine local hostname
+15:05:42.256 INFO  Cannot determine local hostname
+15:05:42.268 INFO  Eureka HTTP Client uses RestTemplate.
+15:05:42.347 WARN  Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+15:05:42.378 INFO  Setting initial instance status as: STARTING
+15:05:42.441 INFO  Initializing Eureka in region us-east-1
+15:05:42.442 INFO  Client configured to neither register nor query for data.
+15:05:42.474 INFO  Discovery Client initialized at timestamp 1676034342459 with initial instances count: 0
+15:05:42.742 INFO  Initializing ...
+15:05:42.745 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+15:05:42.913 INFO  Finished initializing remote region registries. All known remote regions: []
+15:05:42.916 INFO  Initialized
+15:05:42.940 INFO  Exposing 1 endpoint(s) beneath base path '/actuator'
+15:05:43.212 INFO  Registering application DISCOVERY-SERVER with eureka with status UP
+15:05:43.225 INFO  Starting ProtocolHandler ["http-nio-8761"]
+15:05:43.266 INFO  isAws returned false
+15:05:43.267 INFO  Initialized server context
+15:05:43.268 INFO  Got 1 instances from neighboring DS node
+15:05:43.269 INFO  Renew threshold is: 1
+15:05:43.270 INFO  Changing status to UP
+15:05:43.349 INFO  Started Eureka Server
+15:05:43.351 INFO  Tomcat started on port(s): 8761 (http) with context path ''
+15:05:43.353 INFO  Updating port to 8761
+15:05:45.324 INFO  Cannot determine local hostname
+15:05:45.443 INFO  Started DiscoveryServerApplication in 24.987 seconds (process running for 28.778)
+15:06:43.387 INFO  Running the evict task with compensationTime 0ms
+15:07:43.339 INFO  Running the evict task with compensationTime 26ms
+15:07:56.651 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:07:56.668 INFO  Initializing Servlet 'dispatcherServlet'
+15:07:56.896 INFO  Completed initialization in 225 ms
+15:08:00.492 INFO  Registered instance API-GATEWAY/localhost:api-gateway:9090 with status UP (replication=false)
+15:08:43.324 INFO  Running the evict task with compensationTime 0ms
+15:09:43.322 INFO  Running the evict task with compensationTime 0ms
+15:10:43.328 INFO  Running the evict task with compensationTime 8ms
+15:11:17.420 WARN  Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+15:11:17.586 WARN  Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:68)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:48)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:298)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:583)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:212)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:105)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:182)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 8 common frames omitted
+15:11:43.329 INFO  Running the evict task with compensationTime 0ms
+15:12:43.345 INFO  Running the evict task with compensationTime 14ms
+15:13:43.423 INFO  Running the evict task with compensationTime 14ms
+15:14:03.408 INFO  Registered instance ORDER-SERVICE/localhost:order-service:8081 with status UP (replication=false)
+15:14:43.360 INFO  Running the evict task with compensationTime 0ms
+15:15:42.902 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+15:15:43.388 INFO  Running the evict task with compensationTime 39ms
+15:16:43.499 INFO  Running the evict task with compensationTime 54ms
+15:17:43.469 INFO  Running the evict task with compensationTime 21ms
+15:18:43.483 INFO  Running the evict task with compensationTime 12ms
+15:19:43.486 INFO  Running the evict task with compensationTime 5ms
+15:20:43.192 INFO  Current renewal threshold is : 5
+15:20:43.539 INFO  Running the evict task with compensationTime 56ms
+15:21:43.581 INFO  Running the evict task with compensationTime 5ms
+15:22:43.720 INFO  Running the evict task with compensationTime 147ms
+15:23:43.682 INFO  Running the evict task with compensationTime 0ms
+15:24:43.677 INFO  Running the evict task with compensationTime 0ms
+15:25:42.996 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+15:25:43.682 INFO  Running the evict task with compensationTime 6ms
+15:26:43.690 INFO  Running the evict task with compensationTime 0ms
+15:27:43.689 INFO  Running the evict task with compensationTime 0ms
+15:28:43.682 INFO  Running the evict task with compensationTime 1ms
+15:29:43.687 INFO  Running the evict task with compensationTime 2ms
+15:30:43.684 INFO  Running the evict task with compensationTime 0ms
+15:31:43.771 INFO  Running the evict task with compensationTime 87ms
+15:32:43.778 INFO  Running the evict task with compensationTime 3ms
+15:33:43.822 INFO  Running the evict task with compensationTime 35ms
+15:34:43.893 INFO  Running the evict task with compensationTime 50ms
+15:35:43.068 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+15:35:43.010 INFO  Current renewal threshold is : 5
+15:35:43.858 INFO  Running the evict task with compensationTime 0ms
+15:36:43.877 INFO  Running the evict task with compensationTime 1ms
+15:37:43.882 INFO  Running the evict task with compensationTime 8ms
+15:38:43.956 INFO  Running the evict task with compensationTime 24ms
+15:39:43.928 INFO  Running the evict task with compensationTime 1ms
+15:40:43.919 INFO  Running the evict task with compensationTime 1ms
+15:41:43.903 INFO  Running the evict task with compensationTime 0ms
+15:41:46.517 INFO  Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+15:41:48.703 INFO  Shutting down Eureka Server..
+15:41:48.843 INFO  Shutting down ...
+15:41:49.069 INFO  Shut down
+15:41:49.069 INFO  Eureka Service is now shutdown...
+15:41:49.109 INFO  Shutting down ...
+15:41:49.175 INFO  Shut down
+15:41:50.267 INFO  Shutting down DiscoveryClient ...
+15:41:50.285 INFO  Completed shut down of DiscoveryClient
+15:42:13.500 INFO  Starting DiscoveryServerApplication using Java 17.0.5 with PID 12448 (C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project\discovery-server\target\classes started by Reem in C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project)
+15:42:13.756 INFO  No active profile set, falling back to 1 default profile: "default"
+15:42:22.921 INFO  BeanFactory id=d39c9e89-28a0-300b-9499-408f1cc051e6
+15:42:25.552 INFO  Tomcat initialized with port(s): 8761 (http)
+15:42:25.576 INFO  Initializing ProtocolHandler ["http-nio-8761"]
+15:42:25.578 INFO  Starting service [Tomcat]
+15:42:25.579 INFO  Starting Servlet engine: [Apache Tomcat/10.1.5]
+15:42:26.498 INFO  Initializing Spring embedded WebApplicationContext
+15:42:26.499 INFO  Root WebApplicationContext: initialization completed in 12275 ms
+15:42:36.818 INFO  Using JSON encoding codec LegacyJacksonJson
+15:42:36.854 INFO  Using JSON decoding codec LegacyJacksonJson
+15:42:38.388 INFO  Using XML encoding codec XStreamXml
+15:42:38.388 INFO  Using XML decoding codec XStreamXml
+15:42:49.421 INFO  Cannot determine local hostname
+15:42:54.371 INFO  Cannot determine local hostname
+15:42:54.402 INFO  Eureka HTTP Client uses RestTemplate.
+15:42:54.599 WARN  Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+15:42:54.699 INFO  Setting initial instance status as: STARTING
+15:42:54.796 INFO  Initializing Eureka in region us-east-1
+15:42:54.797 INFO  Client configured to neither register nor query for data.
+15:42:54.854 INFO  Discovery Client initialized at timestamp 1676036574852 with initial instances count: 0
+15:42:54.956 INFO  Initializing ...
+15:42:54.961 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+15:42:55.214 INFO  Finished initializing remote region registries. All known remote regions: []
+15:42:55.217 INFO  Initialized
+15:42:55.241 INFO  Exposing 1 endpoint(s) beneath base path '/actuator'
+15:42:55.365 INFO  Registering application DISCOVERY-SERVER with eureka with status UP
+15:42:55.374 INFO  Starting ProtocolHandler ["http-nio-8761"]
+15:42:55.412 INFO  isAws returned false
+15:42:55.413 INFO  Initialized server context
+15:42:55.414 INFO  Got 1 instances from neighboring DS node
+15:42:55.414 INFO  Renew threshold is: 1
+15:42:55.415 INFO  Changing status to UP
+15:42:55.606 INFO  Started Eureka Server
+15:42:55.706 INFO  Tomcat started on port(s): 8761 (http) with context path ''
+15:42:55.708 INFO  Updating port to 8761
+15:42:57.249 INFO  Cannot determine local hostname
+15:42:57.339 INFO  Started DiscoveryServerApplication in 52.52 seconds (process running for 55.642)
+15:43:12.738 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:43:12.759 INFO  Initializing Servlet 'dispatcherServlet'
+15:43:12.814 INFO  Completed initialization in 53 ms
+15:43:13.481 WARN  DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - localhost:api-gateway:9090
+15:43:13.482 WARN  Not Found (Renew): API-GATEWAY - localhost:api-gateway:9090
+15:43:13.481 WARN  DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - localhost:order-service:8081
+15:43:13.484 WARN  Not Found (Renew): ORDER-SERVICE - localhost:order-service:8081
+15:43:45.333 WARN  DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - localhost:api-gateway:9090
+15:43:45.397 WARN  Not Found (Renew): API-GATEWAY - localhost:api-gateway:9090
+15:43:46.149 WARN  DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - localhost:order-service:8081
+15:43:46.149 WARN  Not Found (Renew): ORDER-SERVICE - localhost:order-service:8081
+15:43:55.618 INFO  Running the evict task with compensationTime 0ms
+15:43:57.396 INFO  Registered instance API-GATEWAY/localhost:api-gateway:9090 with status DOWN (replication=false)
+15:44:03.430 INFO  Cancelled instance API-GATEWAY/localhost:api-gateway:9090 (replication=false)
+15:44:17.459 WARN  DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - localhost:order-service:8081
+15:44:17.494 WARN  Not Found (Renew): ORDER-SERVICE - localhost:order-service:8081
+15:44:52.878 WARN  DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - localhost:order-service:8081
+15:44:52.958 WARN  Not Found (Renew): ORDER-SERVICE - localhost:order-service:8081
+15:44:55.653 INFO  Running the evict task with compensationTime 29ms
+15:45:23.870 WARN  DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - localhost:order-service:8081
+15:45:23.894 WARN  Not Found (Renew): ORDER-SERVICE - localhost:order-service:8081
+15:45:30.171 WARN  Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+15:45:30.181 WARN  Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:68)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:48)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:298)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:583)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:212)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:105)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:182)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 8 common frames omitted
+15:45:54.649 WARN  DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - localhost:order-service:8081
+15:45:54.683 WARN  Not Found (Renew): ORDER-SERVICE - localhost:order-service:8081
+15:45:55.660 INFO  Running the evict task with compensationTime 14ms
+15:46:05.488 INFO  Registered instance API-GATEWAY/localhost:api-gateway:9090 with status UP (replication=false)
+15:46:18.691 INFO  Registered instance ORDER-SERVICE/localhost:order-service:8081 with status DOWN (replication=false)
+15:46:25.374 INFO  Cancelled instance ORDER-SERVICE/localhost:order-service:8081 (replication=false)
+15:46:55.676 INFO  Running the evict task with compensationTime 0ms
+15:47:36.185 INFO  Registered instance ORDER-SERVICE/localhost:order-service:8081 with status UP (replication=false)
+15:47:55.680 INFO  Running the evict task with compensationTime 5ms
+15:48:55.696 INFO  Running the evict task with compensationTime 1ms
+15:49:55.677 INFO  Running the evict task with compensationTime 0ms
+15:50:55.716 INFO  Running the evict task with compensationTime 8ms
+15:51:55.684 INFO  Running the evict task with compensationTime 3ms
+15:52:55.048 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+15:52:55.696 INFO  Running the evict task with compensationTime 17ms
+15:53:55.743 INFO  Running the evict task with compensationTime 8ms
+15:54:55.797 INFO  Running the evict task with compensationTime 60ms
+15:55:55.888 INFO  Running the evict task with compensationTime 66ms
+15:56:55.861 INFO  Running the evict task with compensationTime 0ms
+15:57:55.499 INFO  Current renewal threshold is : 5
+15:57:55.849 INFO  Running the evict task with compensationTime 16ms
+15:58:55.879 INFO  Running the evict task with compensationTime 1ms
+15:59:55.876 INFO  Running the evict task with compensationTime 0ms
+16:00:56.083 INFO  Running the evict task with compensationTime 93ms
+16:01:55.948 INFO  Running the evict task with compensationTime 0ms
+16:02:55.155 WARN  The replica size seems to be empty. Check the route 53 DNS Registry
+16:02:55.961 INFO  Running the evict task with compensationTime 16ms
+16:03:11.615 INFO  Registered instance API-GATEWAY/localhost:api-gateway:9090 with status DOWN (replication=false)
+16:03:17.837 INFO  Cancelled instance API-GATEWAY/localhost:api-gateway:9090 (replication=false)
+16:03:33.511 INFO  Registered instance ORDER-SERVICE/localhost:order-service:8081 with status DOWN (replication=false)
+16:03:37.592 INFO  Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+16:03:38.991 INFO  Shutting down Eureka Server..
+16:03:39.076 INFO  Shutting down ...
+16:03:39.652 INFO  Shut down
+16:03:39.654 INFO  Eureka Service is now shutdown...
+16:03:39.678 INFO  Shutting down ...
+16:03:39.771 INFO  Shut down
+16:03:40.949 INFO  Shutting down DiscoveryClient ...
+16:03:40.958 INFO  Completed shut down of DiscoveryClient

@@ -1,0 +1,2044 @@
+15:07:34.883 INFO  HV000001: Hibernate Validator 8.0.0.Final
+15:07:35.111 INFO  Starting ApiGatewayApplication using Java 17.0.5 with PID 3828 (C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project\api-gateway\target\classes started by Reem in C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project)
+15:07:35.116 INFO  No active profile set, falling back to 1 default profile: "default"
+15:07:38.698 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayReactiveLoadBalancerClientAutoConfiguration#gatewayLoadBalancerClientFilter matched
+15:07:38.706 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayReactiveLoadBalancerClientAutoConfiguration#loadBalancerServiceInstanceCookieFilter matched
+15:07:38.726 TRACE Condition GatewayAutoConfiguration.OnVerboseDisabledCondition on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$GatewayActuatorConfiguration#gatewayLegacyControllerEndpoint did not match due to NoneNestedConditions 1 matched 0 did not; NestedCondition on GatewayAutoConfiguration.OnVerboseDisabledCondition.VerboseDisabled @ConditionalOnProperty (spring.cloud.gateway.actuator.verbose.enabled) matched
+15:07:38.798 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#routingFilter matched
+15:07:38.799 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#nettyWriteResponseFilter matched
+15:07:38.801 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#reactorNettyWebSocketClient matched
+15:07:38.802 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#reactorNettyRequestUpgradeStrategy matched
+15:07:38.957 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#adaptCachedBodyGlobalFilter matched
+15:07:38.957 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeCachedBodyFilter matched
+15:07:38.958 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#routeToRequestUrlFilter matched
+15:07:38.959 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#forwardRoutingFilter matched
+15:07:38.960 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#forwardPathFilter matched
+15:07:38.961 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#webSocketService matched
+15:07:38.962 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#websocketRoutingFilter matched
+15:07:38.964 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#weightCalculatorWebFilter matched
+15:07:38.965 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#afterRoutePredicateFactory matched
+15:07:38.966 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#beforeRoutePredicateFactory matched
+15:07:38.967 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#betweenRoutePredicateFactory matched
+15:07:38.967 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#cookieRoutePredicateFactory matched
+15:07:38.968 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#headerRoutePredicateFactory matched
+15:07:38.969 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#hostRoutePredicateFactory matched
+15:07:38.969 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#methodRoutePredicateFactory matched
+15:07:38.970 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#pathRoutePredicateFactory matched
+15:07:38.971 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#queryRoutePredicateFactory matched
+15:07:38.971 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#readBodyPredicateFactory matched
+15:07:38.972 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#remoteAddrRoutePredicateFactory matched
+15:07:38.972 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#xForwardedRemoteAddrRoutePredicateFactory matched
+15:07:38.973 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#weightRoutePredicateFactory matched
+15:07:38.974 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#cloudFoundryRouteServiceRoutePredicateFactory matched
+15:07:38.976 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addRequestHeaderGatewayFilterFactory matched
+15:07:38.977 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addRequestHeadersIfNotPresentGatewayFilterFactory matched
+15:07:38.979 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#mapRequestHeaderGatewayFilterFactory matched
+15:07:38.980 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addRequestParameterGatewayFilterFactory matched
+15:07:38.998 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addResponseHeaderGatewayFilterFactory matched
+15:07:39.000 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#modifyRequestBodyGatewayFilterFactory matched
+15:07:39.002 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#dedupeResponseHeaderGatewayFilterFactory matched
+15:07:39.004 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#modifyResponseBodyGatewayFilterFactory matched
+15:07:39.008 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#cacheRequestBodyGatewayFilterFactory matched
+15:07:39.009 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#prefixPathGatewayFilterFactory matched
+15:07:39.010 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#preserveHostHeaderGatewayFilterFactory matched
+15:07:39.011 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#redirectToGatewayFilterFactory matched
+15:07:39.013 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeJsonAttributesResponseBodyGatewayFilterFactory matched
+15:07:39.014 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeRequestHeaderGatewayFilterFactory matched
+15:07:39.015 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeRequestParameterGatewayFilterFactory matched
+15:07:39.016 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeResponseHeaderGatewayFilterFactory matched
+15:07:39.035 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#rewritePathGatewayFilterFactory matched
+15:07:39.036 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#retryGatewayFilterFactory matched
+15:07:39.046 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setPathGatewayFilterFactory matched
+15:07:39.048 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#secureHeadersGatewayFilterFactory matched
+15:07:39.049 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setRequestHeaderGatewayFilterFactory matched
+15:07:39.050 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setRequestHostHeaderGatewayFilterFactory matched
+15:07:39.050 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setResponseHeaderGatewayFilterFactory matched
+15:07:39.052 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#rewriteResponseHeaderGatewayFilterFactory matched
+15:07:39.053 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#rewriteLocationResponseHeaderGatewayFilterFactory matched
+15:07:39.053 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setStatusGatewayFilterFactory matched
+15:07:39.054 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#saveSessionGatewayFilterFactory matched
+15:07:39.055 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#stripPrefixGatewayFilterFactory matched
+15:07:39.056 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#requestHeaderToRequestUriGatewayFilterFactory matched
+15:07:39.057 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#requestSizeGatewayFilterFactory matched
+15:07:39.058 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#requestHeaderSizeGatewayFilterFactory matched
+15:07:40.659 INFO  BeanFactory id=7cc9d4cf-4b0b-3a8d-a24a-4e4f2f71f2ad
+15:07:40.973 INFO  Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:07:40.977 INFO  Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:07:41.003 INFO  Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:07:47.160 INFO  Cannot determine local hostname
+15:07:47.595 DEBUG Routes supplied from Gateway Properties: [RouteDefinition{id='product-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/api/product}}], filters=[], uri=lb://product-service, order=0, metadata={}}, RouteDefinition{id='order-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/api/order}}], filters=[], uri=lb://order-service, order=0, metadata={}}, RouteDefinition{id='inventory-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/api/inventory}}], filters=[], uri=lb://inventory-service, order=0, metadata={}}, RouteDefinition{id='discovery-server', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/eureka/web}}], filters=[FilterDefinition{name='SetPath', args={_genkey_0=/}}], uri=http://localhost:8761, order=0, metadata={}}, RouteDefinition{id='discovery-server-static', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/eureka/**}}], filters=[], uri=http://localhost:8761, order=0, metadata={}}]
+15:07:47.937 INFO  Loaded RoutePredicateFactory [After]
+15:07:47.938 INFO  Loaded RoutePredicateFactory [Before]
+15:07:47.939 INFO  Loaded RoutePredicateFactory [Between]
+15:07:47.939 INFO  Loaded RoutePredicateFactory [Cookie]
+15:07:47.939 INFO  Loaded RoutePredicateFactory [Header]
+15:07:47.939 INFO  Loaded RoutePredicateFactory [Host]
+15:07:47.940 INFO  Loaded RoutePredicateFactory [Method]
+15:07:47.940 INFO  Loaded RoutePredicateFactory [Path]
+15:07:47.940 INFO  Loaded RoutePredicateFactory [Query]
+15:07:47.940 INFO  Loaded RoutePredicateFactory [ReadBody]
+15:07:47.940 INFO  Loaded RoutePredicateFactory [RemoteAddr]
+15:07:47.941 INFO  Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:07:47.941 INFO  Loaded RoutePredicateFactory [Weight]
+15:07:47.943 INFO  Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:07:50.193 INFO  Cannot determine local hostname
+15:07:51.604 INFO  Cannot determine local hostname
+15:07:51.852 INFO  Exposing 1 endpoint(s) beneath base path '/actuator'
+15:07:52.688 INFO  Eureka HTTP Client uses RestTemplate.
+15:07:52.786 WARN  Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+15:07:53.108 INFO  Setting initial instance status as: STARTING
+15:07:53.465 INFO  Initializing Eureka in region us-east-1
+15:07:53.478 INFO  Resolving eureka endpoints via configuration
+15:07:53.589 INFO  Disable delta property : false
+15:07:53.589 INFO  Single vip registry refresh property : null
+15:07:53.589 INFO  Force full registry fetch : false
+15:07:53.589 INFO  Application is null : false
+15:07:53.589 INFO  Registered Applications size is zero : true
+15:07:53.590 INFO  Application version is -1: true
+15:07:53.590 INFO  Getting all instance registry info from the eureka server
+15:07:57.983 INFO  The response status is 200
+15:07:57.991 INFO  Starting heartbeat executor: renew interval is: 30
+15:07:57.999 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+15:07:58.033 INFO  Discovery Client initialized at timestamp 1676034478030 with initial instances count: 0
+15:07:58.045 INFO  Registering application API-GATEWAY with eureka with status UP
+15:07:58.048 INFO  Saw local status change event StatusChangeEvent [timestamp=1676034478047, current=UP, previous=STARTING]
+15:07:58.076 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090: registering service...
+15:07:58.293 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:07:58.415 DEBUG RouteDefinition matched: product-service
+15:07:58.416 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:07:58.418 DEBUG RouteDefinition matched: order-service
+15:07:58.419 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:07:58.424 DEBUG RouteDefinition matched: inventory-service
+15:07:58.424 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:07:58.431 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:07:58.495 DEBUG RouteDefinition matched: discovery-server
+15:07:58.495 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:07:58.497 DEBUG RouteDefinition matched: discovery-server-static
+15:07:58.526 DEBUG New routes count: 5
+15:08:00.543 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - registration status: 204
+15:08:00.647 INFO  Netty started on port 9090
+15:08:00.653 INFO  Updating port to 9090
+15:08:03.250 INFO  Cannot determine local hostname
+15:08:04.782 INFO  Cannot determine local hostname
+15:08:04.879 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:08:04.881 DEBUG RouteDefinition matched: product-service
+15:08:04.881 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:08:04.883 DEBUG RouteDefinition matched: order-service
+15:08:04.883 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:08:04.885 DEBUG RouteDefinition matched: inventory-service
+15:08:04.885 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:08:04.890 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:08:04.893 DEBUG RouteDefinition matched: discovery-server
+15:08:04.894 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:08:04.896 DEBUG RouteDefinition matched: discovery-server-static
+15:08:04.904 DEBUG New routes count: 5
+15:08:04.927 INFO  Started ApiGatewayApplication in 33.552 seconds (process running for 36.694)
+15:08:28.092 INFO  Disable delta property : false
+15:08:28.117 INFO  Single vip registry refresh property : null
+15:08:28.118 INFO  Force full registry fetch : false
+15:08:28.118 INFO  Application is null : false
+15:08:28.118 INFO  Registered Applications size is zero : true
+15:08:28.118 INFO  Application version is -1: false
+15:08:28.119 INFO  Getting all instance registry info from the eureka server
+15:08:29.062 INFO  The response status is 200
+15:08:29.268 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:08:29.347 DEBUG RouteDefinition matched: product-service
+15:08:29.348 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:08:29.352 DEBUG RouteDefinition matched: order-service
+15:08:29.353 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:08:29.357 DEBUG RouteDefinition matched: inventory-service
+15:08:29.358 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:08:29.361 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:08:29.373 DEBUG RouteDefinition matched: discovery-server
+15:08:29.373 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:08:29.377 DEBUG RouteDefinition matched: discovery-server-static
+15:08:29.391 DEBUG New routes count: 5
+15:09:03.744 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:09:04.137 DEBUG RouteDefinition matched: product-service
+15:09:04.137 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:09:04.163 DEBUG RouteDefinition matched: order-service
+15:09:04.163 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:09:04.224 DEBUG RouteDefinition matched: inventory-service
+15:09:04.226 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:09:04.228 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:09:04.266 DEBUG RouteDefinition matched: discovery-server
+15:09:04.267 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:09:04.639 DEBUG RouteDefinition matched: discovery-server-static
+15:09:04.657 DEBUG New routes count: 5
+15:09:34.996 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:09:35.272 DEBUG RouteDefinition matched: product-service
+15:09:35.275 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:09:35.277 DEBUG RouteDefinition matched: order-service
+15:09:35.277 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:09:35.280 DEBUG RouteDefinition matched: inventory-service
+15:09:35.281 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:09:35.287 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:09:35.399 DEBUG RouteDefinition matched: discovery-server
+15:09:35.400 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:09:35.406 DEBUG RouteDefinition matched: discovery-server-static
+15:09:35.446 DEBUG New routes count: 5
+15:10:06.655 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:10:06.844 DEBUG RouteDefinition matched: product-service
+15:10:06.845 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:10:06.863 DEBUG RouteDefinition matched: order-service
+15:10:06.864 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:10:06.869 DEBUG RouteDefinition matched: inventory-service
+15:10:06.870 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:10:06.875 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:10:06.902 DEBUG RouteDefinition matched: discovery-server
+15:10:06.903 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:10:06.913 DEBUG RouteDefinition matched: discovery-server-static
+15:10:06.925 DEBUG New routes count: 5
+15:10:37.165 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:10:37.408 DEBUG RouteDefinition matched: product-service
+15:10:37.410 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:10:37.433 DEBUG RouteDefinition matched: order-service
+15:10:37.438 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:10:37.461 DEBUG RouteDefinition matched: inventory-service
+15:10:37.464 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:10:37.491 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:10:37.548 DEBUG RouteDefinition matched: discovery-server
+15:10:37.549 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:10:37.568 DEBUG RouteDefinition matched: discovery-server-static
+15:10:37.639 DEBUG New routes count: 5
+15:11:08.801 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:11:09.158 DEBUG RouteDefinition matched: product-service
+15:11:09.159 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:11:09.168 DEBUG RouteDefinition matched: order-service
+15:11:09.168 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:11:09.174 DEBUG RouteDefinition matched: inventory-service
+15:11:09.174 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:11:09.183 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:11:09.251 DEBUG RouteDefinition matched: discovery-server
+15:11:09.252 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:11:09.275 DEBUG RouteDefinition matched: discovery-server-static
+15:11:09.310 DEBUG New routes count: 5
+15:11:39.638 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:11:39.824 DEBUG RouteDefinition matched: product-service
+15:11:39.825 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:11:39.831 DEBUG RouteDefinition matched: order-service
+15:11:39.831 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:11:40.069 DEBUG RouteDefinition matched: inventory-service
+15:11:40.070 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:11:40.078 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:11:40.104 DEBUG RouteDefinition matched: discovery-server
+15:11:40.105 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:11:40.119 DEBUG RouteDefinition matched: discovery-server-static
+15:11:40.141 DEBUG New routes count: 5
+15:12:10.641 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:12:11.128 DEBUG RouteDefinition matched: product-service
+15:12:11.130 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:12:11.136 DEBUG RouteDefinition matched: order-service
+15:12:11.136 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:12:11.144 DEBUG RouteDefinition matched: inventory-service
+15:12:11.144 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:12:11.149 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:12:11.186 DEBUG RouteDefinition matched: discovery-server
+15:12:11.186 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:12:11.515 DEBUG RouteDefinition matched: discovery-server-static
+15:12:11.538 DEBUG New routes count: 5
+15:12:43.277 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:12:43.739 DEBUG RouteDefinition matched: product-service
+15:12:43.739 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:12:43.749 DEBUG RouteDefinition matched: order-service
+15:12:43.749 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:12:43.752 DEBUG RouteDefinition matched: inventory-service
+15:12:43.752 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:12:43.755 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:12:43.780 DEBUG RouteDefinition matched: discovery-server
+15:12:43.780 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:12:43.787 DEBUG RouteDefinition matched: discovery-server-static
+15:12:43.846 DEBUG New routes count: 5
+15:12:54.545 INFO  Resolving eureka endpoints via configuration
+15:13:14.587 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:13:15.032 DEBUG RouteDefinition matched: product-service
+15:13:15.033 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:13:15.035 DEBUG RouteDefinition matched: order-service
+15:13:15.098 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:13:15.099 DEBUG RouteDefinition matched: inventory-service
+15:13:15.100 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:13:15.102 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:13:15.137 DEBUG RouteDefinition matched: discovery-server
+15:13:15.137 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:13:15.149 DEBUG RouteDefinition matched: discovery-server-static
+15:13:15.171 DEBUG New routes count: 5
+15:13:51.348 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:13:51.609 DEBUG RouteDefinition matched: product-service
+15:13:51.610 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:13:51.633 DEBUG RouteDefinition matched: order-service
+15:13:51.634 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:13:51.635 DEBUG RouteDefinition matched: inventory-service
+15:13:51.636 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:13:51.641 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:13:51.678 DEBUG RouteDefinition matched: discovery-server
+15:13:51.678 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:13:51.821 DEBUG RouteDefinition matched: discovery-server-static
+15:13:51.854 DEBUG New routes count: 5
+15:14:22.308 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:14:22.784 DEBUG RouteDefinition matched: product-service
+15:14:22.785 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:14:22.792 DEBUG RouteDefinition matched: order-service
+15:14:22.792 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:14:22.800 DEBUG RouteDefinition matched: inventory-service
+15:14:22.800 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:14:22.895 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:14:22.910 DEBUG RouteDefinition matched: discovery-server
+15:14:22.911 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:14:23.011 DEBUG RouteDefinition matched: discovery-server-static
+15:14:23.021 DEBUG New routes count: 5
+15:14:53.228 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:14:53.532 DEBUG RouteDefinition matched: product-service
+15:14:53.535 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:14:53.537 DEBUG RouteDefinition matched: order-service
+15:14:53.537 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:14:53.539 DEBUG RouteDefinition matched: inventory-service
+15:14:53.539 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:14:53.541 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:14:53.554 DEBUG RouteDefinition matched: discovery-server
+15:14:53.555 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:14:53.558 DEBUG RouteDefinition matched: discovery-server-static
+15:14:53.564 DEBUG New routes count: 5
+15:15:25.165 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:15:25.615 DEBUG RouteDefinition matched: product-service
+15:15:25.616 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:15:25.618 DEBUG RouteDefinition matched: order-service
+15:15:25.619 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:15:25.620 DEBUG RouteDefinition matched: inventory-service
+15:15:25.621 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:15:25.624 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:15:25.801 DEBUG RouteDefinition matched: discovery-server
+15:15:25.801 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:15:25.829 DEBUG RouteDefinition matched: discovery-server-static
+15:15:25.865 DEBUG New routes count: 5
+15:15:58.509 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:15:58.868 DEBUG RouteDefinition matched: product-service
+15:15:58.869 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:15:58.892 DEBUG RouteDefinition matched: order-service
+15:15:58.893 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:15:58.910 DEBUG RouteDefinition matched: inventory-service
+15:15:58.910 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:15:58.918 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:15:58.961 DEBUG RouteDefinition matched: discovery-server
+15:15:58.962 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:15:58.979 DEBUG RouteDefinition matched: discovery-server-static
+15:15:58.998 DEBUG New routes count: 5
+15:16:29.178 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:16:29.546 DEBUG RouteDefinition matched: product-service
+15:16:29.548 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:16:29.550 DEBUG RouteDefinition matched: order-service
+15:16:29.551 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:16:29.552 DEBUG RouteDefinition matched: inventory-service
+15:16:29.552 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:16:29.557 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:16:29.575 DEBUG RouteDefinition matched: discovery-server
+15:16:29.576 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:16:29.592 DEBUG RouteDefinition matched: discovery-server-static
+15:16:29.604 DEBUG New routes count: 5
+15:17:02.078 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:17:02.492 DEBUG RouteDefinition matched: product-service
+15:17:02.495 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:17:02.497 DEBUG RouteDefinition matched: order-service
+15:17:02.497 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:17:02.508 DEBUG RouteDefinition matched: inventory-service
+15:17:02.508 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:17:02.538 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:17:02.572 DEBUG RouteDefinition matched: discovery-server
+15:17:02.572 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:17:02.586 DEBUG RouteDefinition matched: discovery-server-static
+15:17:02.619 DEBUG New routes count: 5
+15:17:32.910 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:17:33.176 DEBUG RouteDefinition matched: product-service
+15:17:33.183 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:17:33.184 DEBUG RouteDefinition matched: order-service
+15:17:33.185 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:17:33.189 DEBUG RouteDefinition matched: inventory-service
+15:17:33.189 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:17:33.191 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:17:33.217 DEBUG RouteDefinition matched: discovery-server
+15:17:33.217 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:17:33.223 DEBUG RouteDefinition matched: discovery-server-static
+15:17:33.237 DEBUG New routes count: 5
+15:17:54.821 INFO  Resolving eureka endpoints via configuration
+15:18:03.780 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:18:04.016 DEBUG RouteDefinition matched: product-service
+15:18:04.018 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:18:04.021 DEBUG RouteDefinition matched: order-service
+15:18:04.022 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:18:04.056 DEBUG RouteDefinition matched: inventory-service
+15:18:04.056 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:18:04.092 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:18:04.122 DEBUG RouteDefinition matched: discovery-server
+15:18:04.122 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:18:04.127 DEBUG RouteDefinition matched: discovery-server-static
+15:18:04.143 DEBUG New routes count: 5
+15:18:36.718 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:18:37.020 DEBUG RouteDefinition matched: product-service
+15:18:37.021 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:18:37.024 DEBUG RouteDefinition matched: order-service
+15:18:37.025 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:18:37.039 DEBUG RouteDefinition matched: inventory-service
+15:18:37.040 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:18:37.043 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:18:37.094 DEBUG RouteDefinition matched: discovery-server
+15:18:37.094 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:18:37.120 DEBUG RouteDefinition matched: discovery-server-static
+15:18:37.926 DEBUG New routes count: 5
+15:19:08.255 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:19:08.700 DEBUG RouteDefinition matched: product-service
+15:19:08.703 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:19:08.719 DEBUG RouteDefinition matched: order-service
+15:19:08.719 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:19:08.726 DEBUG RouteDefinition matched: inventory-service
+15:19:08.727 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:19:08.757 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:19:08.852 DEBUG RouteDefinition matched: discovery-server
+15:19:08.852 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:19:08.872 DEBUG RouteDefinition matched: discovery-server-static
+15:19:08.910 DEBUG New routes count: 5
+15:19:39.533 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:19:39.911 DEBUG RouteDefinition matched: product-service
+15:19:39.919 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:19:39.938 DEBUG RouteDefinition matched: order-service
+15:19:39.940 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:19:39.953 DEBUG RouteDefinition matched: inventory-service
+15:19:39.965 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:19:40.001 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:19:40.244 DEBUG RouteDefinition matched: discovery-server
+15:19:40.245 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:19:40.305 DEBUG RouteDefinition matched: discovery-server-static
+15:19:40.388 DEBUG New routes count: 5
+15:20:12.531 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:20:12.786 DEBUG RouteDefinition matched: product-service
+15:20:12.787 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:20:12.799 DEBUG RouteDefinition matched: order-service
+15:20:12.799 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:20:12.807 DEBUG RouteDefinition matched: inventory-service
+15:20:12.807 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:20:12.810 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:20:12.868 DEBUG RouteDefinition matched: discovery-server
+15:20:12.869 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:20:12.875 DEBUG RouteDefinition matched: discovery-server-static
+15:20:12.892 DEBUG New routes count: 5
+15:20:44.776 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:20:45.752 DEBUG RouteDefinition matched: product-service
+15:20:45.753 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:20:45.757 DEBUG RouteDefinition matched: order-service
+15:20:45.757 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:20:45.765 DEBUG RouteDefinition matched: inventory-service
+15:20:45.765 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:20:45.774 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:20:45.836 DEBUG RouteDefinition matched: discovery-server
+15:20:45.836 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:20:45.854 DEBUG RouteDefinition matched: discovery-server-static
+15:20:45.891 DEBUG New routes count: 5
+15:21:16.447 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:21:17.803 DEBUG RouteDefinition matched: product-service
+15:21:17.810 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:21:17.859 DEBUG RouteDefinition matched: order-service
+15:21:17.860 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:21:17.912 DEBUG RouteDefinition matched: inventory-service
+15:21:17.913 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:21:17.959 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:21:18.251 DEBUG RouteDefinition matched: discovery-server
+15:21:18.251 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:21:18.294 DEBUG RouteDefinition matched: discovery-server-static
+15:21:18.388 DEBUG New routes count: 5
+15:21:50.374 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:21:52.296 DEBUG RouteDefinition matched: product-service
+15:21:52.298 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:21:52.305 DEBUG RouteDefinition matched: order-service
+15:21:52.306 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:21:52.309 DEBUG RouteDefinition matched: inventory-service
+15:21:52.321 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:21:52.333 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:21:52.426 DEBUG RouteDefinition matched: discovery-server
+15:21:52.426 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:21:52.440 DEBUG RouteDefinition matched: discovery-server-static
+15:21:52.507 DEBUG New routes count: 5
+15:22:23.789 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:22:24.136 DEBUG RouteDefinition matched: product-service
+15:22:24.138 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:22:24.156 DEBUG RouteDefinition matched: order-service
+15:22:24.156 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:22:24.157 DEBUG RouteDefinition matched: inventory-service
+15:22:24.162 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:22:24.175 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:22:24.209 DEBUG RouteDefinition matched: discovery-server
+15:22:24.209 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:22:24.233 DEBUG RouteDefinition matched: discovery-server-static
+15:22:24.394 DEBUG New routes count: 5
+15:22:55.111 INFO  Resolving eureka endpoints via configuration
+15:22:55.783 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:22:56.210 DEBUG RouteDefinition matched: product-service
+15:22:56.724 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:22:56.792 DEBUG RouteDefinition matched: order-service
+15:22:56.793 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:22:56.856 DEBUG RouteDefinition matched: inventory-service
+15:22:56.856 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:22:56.990 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:22:57.032 DEBUG RouteDefinition matched: discovery-server
+15:22:57.033 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:22:57.048 DEBUG RouteDefinition matched: discovery-server-static
+15:22:57.092 DEBUG New routes count: 5
+15:23:27.118 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:23:27.123 DEBUG RouteDefinition matched: product-service
+15:23:27.123 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:23:27.126 DEBUG RouteDefinition matched: order-service
+15:23:27.126 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:23:27.130 DEBUG RouteDefinition matched: inventory-service
+15:23:27.130 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:23:27.137 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:23:27.139 DEBUG RouteDefinition matched: discovery-server
+15:23:27.139 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:23:27.144 DEBUG RouteDefinition matched: discovery-server-static
+15:23:27.147 DEBUG New routes count: 5
+15:23:57.211 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:23:57.329 DEBUG RouteDefinition matched: product-service
+15:23:57.329 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:23:57.332 DEBUG RouteDefinition matched: order-service
+15:23:57.332 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:23:57.343 DEBUG RouteDefinition matched: inventory-service
+15:23:57.344 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:23:57.348 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:23:57.376 DEBUG RouteDefinition matched: discovery-server
+15:23:57.377 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:23:57.388 DEBUG RouteDefinition matched: discovery-server-static
+15:23:57.396 DEBUG New routes count: 5
+15:24:28.770 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:24:29.200 DEBUG RouteDefinition matched: product-service
+15:24:29.202 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:24:29.204 DEBUG RouteDefinition matched: order-service
+15:24:29.204 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:24:29.210 DEBUG RouteDefinition matched: inventory-service
+15:24:29.216 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:24:29.220 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:24:29.278 DEBUG RouteDefinition matched: discovery-server
+15:24:29.278 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:24:29.287 DEBUG RouteDefinition matched: discovery-server-static
+15:24:29.311 DEBUG New routes count: 5
+15:24:59.406 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:24:59.477 DEBUG RouteDefinition matched: product-service
+15:24:59.478 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:24:59.481 DEBUG RouteDefinition matched: order-service
+15:24:59.481 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:24:59.484 DEBUG RouteDefinition matched: inventory-service
+15:24:59.484 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:24:59.486 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:24:59.492 DEBUG RouteDefinition matched: discovery-server
+15:24:59.492 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:24:59.500 DEBUG RouteDefinition matched: discovery-server-static
+15:24:59.503 DEBUG New routes count: 5
+15:25:29.796 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:25:30.004 DEBUG RouteDefinition matched: product-service
+15:25:30.004 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:25:30.009 DEBUG RouteDefinition matched: order-service
+15:25:30.009 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:25:30.033 DEBUG RouteDefinition matched: inventory-service
+15:25:30.033 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:25:30.037 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:25:30.046 DEBUG RouteDefinition matched: discovery-server
+15:25:30.046 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:25:30.051 DEBUG RouteDefinition matched: discovery-server-static
+15:25:30.053 DEBUG New routes count: 5
+15:26:00.184 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:26:00.262 DEBUG RouteDefinition matched: product-service
+15:26:00.262 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:26:00.266 DEBUG RouteDefinition matched: order-service
+15:26:00.266 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:26:00.473 DEBUG RouteDefinition matched: inventory-service
+15:26:00.473 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:26:00.475 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:26:00.480 DEBUG RouteDefinition matched: discovery-server
+15:26:00.480 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:26:00.490 DEBUG RouteDefinition matched: discovery-server-static
+15:26:00.521 DEBUG New routes count: 5
+15:26:30.681 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:26:30.939 DEBUG RouteDefinition matched: product-service
+15:26:30.940 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:26:30.944 DEBUG RouteDefinition matched: order-service
+15:26:30.946 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:26:30.956 DEBUG RouteDefinition matched: inventory-service
+15:26:30.956 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:26:30.969 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:26:31.002 DEBUG RouteDefinition matched: discovery-server
+15:26:31.003 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:26:31.009 DEBUG RouteDefinition matched: discovery-server-static
+15:26:31.056 DEBUG New routes count: 5
+15:27:01.221 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:27:01.664 DEBUG RouteDefinition matched: product-service
+15:27:01.667 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:27:01.683 DEBUG RouteDefinition matched: order-service
+15:27:01.684 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:27:01.685 DEBUG RouteDefinition matched: inventory-service
+15:27:01.685 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:27:01.688 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:27:01.718 DEBUG RouteDefinition matched: discovery-server
+15:27:01.718 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:27:01.749 DEBUG RouteDefinition matched: discovery-server-static
+15:27:01.817 DEBUG New routes count: 5
+15:27:31.944 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:27:32.123 DEBUG RouteDefinition matched: product-service
+15:27:32.123 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:27:32.128 DEBUG RouteDefinition matched: order-service
+15:27:32.128 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:27:32.131 DEBUG RouteDefinition matched: inventory-service
+15:27:32.131 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:27:32.137 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:27:32.158 DEBUG RouteDefinition matched: discovery-server
+15:27:32.159 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:27:32.163 DEBUG RouteDefinition matched: discovery-server-static
+15:27:32.210 DEBUG New routes count: 5
+15:27:55.227 INFO  Resolving eureka endpoints via configuration
+15:28:02.289 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:28:02.393 DEBUG RouteDefinition matched: product-service
+15:28:02.394 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:28:02.408 DEBUG RouteDefinition matched: order-service
+15:28:02.409 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:28:02.412 DEBUG RouteDefinition matched: inventory-service
+15:28:02.412 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:28:02.415 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:28:02.443 DEBUG RouteDefinition matched: discovery-server
+15:28:02.443 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:28:02.468 DEBUG RouteDefinition matched: discovery-server-static
+15:28:02.484 DEBUG New routes count: 5
+15:28:32.692 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:28:32.959 DEBUG RouteDefinition matched: product-service
+15:28:32.960 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:28:32.966 DEBUG RouteDefinition matched: order-service
+15:28:32.967 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:28:32.971 DEBUG RouteDefinition matched: inventory-service
+15:28:32.972 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:28:32.987 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:28:33.196 DEBUG RouteDefinition matched: discovery-server
+15:28:33.196 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:28:33.232 DEBUG RouteDefinition matched: discovery-server-static
+15:28:33.271 DEBUG New routes count: 5
+15:29:03.504 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:29:03.928 DEBUG RouteDefinition matched: product-service
+15:29:03.929 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:29:03.947 DEBUG RouteDefinition matched: order-service
+15:29:03.947 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:29:03.948 DEBUG RouteDefinition matched: inventory-service
+15:29:03.948 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:29:03.956 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:29:03.983 DEBUG RouteDefinition matched: discovery-server
+15:29:03.984 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:29:04.052 DEBUG RouteDefinition matched: discovery-server-static
+15:29:04.102 DEBUG New routes count: 5
+15:29:34.284 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:29:34.502 DEBUG RouteDefinition matched: product-service
+15:29:34.503 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:29:34.508 DEBUG RouteDefinition matched: order-service
+15:29:34.511 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:29:34.512 DEBUG RouteDefinition matched: inventory-service
+15:29:34.513 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:29:34.514 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:29:34.538 DEBUG RouteDefinition matched: discovery-server
+15:29:34.538 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:29:34.541 DEBUG RouteDefinition matched: discovery-server-static
+15:29:34.561 DEBUG New routes count: 5
+15:30:05.137 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:30:05.344 DEBUG RouteDefinition matched: product-service
+15:30:05.348 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:30:05.352 DEBUG RouteDefinition matched: order-service
+15:30:05.352 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:30:05.359 DEBUG RouteDefinition matched: inventory-service
+15:30:05.360 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:30:05.367 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:30:05.456 DEBUG RouteDefinition matched: discovery-server
+15:30:05.457 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:30:05.467 DEBUG RouteDefinition matched: discovery-server-static
+15:30:05.529 DEBUG New routes count: 5
+15:30:35.854 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:30:36.027 DEBUG RouteDefinition matched: product-service
+15:30:36.027 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:30:36.029 DEBUG RouteDefinition matched: order-service
+15:30:36.029 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:30:36.030 DEBUG RouteDefinition matched: inventory-service
+15:30:36.030 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:30:36.036 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:30:36.051 DEBUG RouteDefinition matched: discovery-server
+15:30:36.051 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:30:36.052 DEBUG RouteDefinition matched: discovery-server-static
+15:30:36.063 DEBUG New routes count: 5
+15:31:06.173 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:31:06.257 DEBUG RouteDefinition matched: product-service
+15:31:06.259 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:31:06.264 DEBUG RouteDefinition matched: order-service
+15:31:06.264 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:31:06.265 DEBUG RouteDefinition matched: inventory-service
+15:31:06.265 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:31:06.267 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:31:06.290 DEBUG RouteDefinition matched: discovery-server
+15:31:06.290 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:31:06.296 DEBUG RouteDefinition matched: discovery-server-static
+15:31:06.307 DEBUG New routes count: 5
+15:31:36.495 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:31:36.632 DEBUG RouteDefinition matched: product-service
+15:31:36.633 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:31:36.635 DEBUG RouteDefinition matched: order-service
+15:31:36.635 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:31:36.638 DEBUG RouteDefinition matched: inventory-service
+15:31:36.638 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:31:36.643 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:31:36.655 DEBUG RouteDefinition matched: discovery-server
+15:31:36.655 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:31:36.660 DEBUG RouteDefinition matched: discovery-server-static
+15:31:36.671 DEBUG New routes count: 5
+15:32:08.540 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:32:08.886 DEBUG RouteDefinition matched: product-service
+15:32:08.887 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:32:08.891 DEBUG RouteDefinition matched: order-service
+15:32:08.891 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:32:08.893 DEBUG RouteDefinition matched: inventory-service
+15:32:08.893 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:32:08.902 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:32:08.924 DEBUG RouteDefinition matched: discovery-server
+15:32:08.924 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:32:08.929 DEBUG RouteDefinition matched: discovery-server-static
+15:32:08.945 DEBUG New routes count: 5
+15:32:39.955 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:32:40.530 DEBUG RouteDefinition matched: product-service
+15:32:40.532 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:32:40.546 DEBUG RouteDefinition matched: order-service
+15:32:40.546 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:32:40.551 DEBUG RouteDefinition matched: inventory-service
+15:32:40.551 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:32:40.555 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:32:40.646 DEBUG RouteDefinition matched: discovery-server
+15:32:40.646 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:32:40.652 DEBUG RouteDefinition matched: discovery-server-static
+15:32:40.696 DEBUG New routes count: 5
+15:32:55.296 INFO  Resolving eureka endpoints via configuration
+15:33:11.955 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:33:12.229 DEBUG RouteDefinition matched: product-service
+15:33:12.231 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:33:12.234 DEBUG RouteDefinition matched: order-service
+15:33:12.235 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:33:12.237 DEBUG RouteDefinition matched: inventory-service
+15:33:12.237 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:33:12.239 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:33:12.261 DEBUG RouteDefinition matched: discovery-server
+15:33:12.261 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:33:12.270 DEBUG RouteDefinition matched: discovery-server-static
+15:33:12.291 DEBUG New routes count: 5
+15:33:43.828 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:33:44.358 DEBUG RouteDefinition matched: product-service
+15:33:44.361 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:33:44.366 DEBUG RouteDefinition matched: order-service
+15:33:44.368 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:33:44.371 DEBUG RouteDefinition matched: inventory-service
+15:33:44.373 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:33:44.383 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:33:44.445 DEBUG RouteDefinition matched: discovery-server
+15:33:44.449 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:33:44.465 DEBUG RouteDefinition matched: discovery-server-static
+15:33:44.555 DEBUG New routes count: 5
+15:34:14.935 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:34:15.649 DEBUG RouteDefinition matched: product-service
+15:34:15.652 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:34:15.663 DEBUG RouteDefinition matched: order-service
+15:34:15.664 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:34:15.669 DEBUG RouteDefinition matched: inventory-service
+15:34:15.669 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:34:15.672 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:34:15.707 DEBUG RouteDefinition matched: discovery-server
+15:34:15.708 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:34:15.719 DEBUG RouteDefinition matched: discovery-server-static
+15:34:15.752 DEBUG New routes count: 5
+15:34:46.069 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:34:46.288 DEBUG RouteDefinition matched: product-service
+15:34:46.289 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:34:46.292 DEBUG RouteDefinition matched: order-service
+15:34:46.292 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:34:46.295 DEBUG RouteDefinition matched: inventory-service
+15:34:46.295 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:34:46.299 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:34:46.329 DEBUG RouteDefinition matched: discovery-server
+15:34:46.329 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:34:46.334 DEBUG RouteDefinition matched: discovery-server-static
+15:34:46.364 DEBUG New routes count: 5
+15:35:17.621 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:35:17.919 DEBUG RouteDefinition matched: product-service
+15:35:17.920 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:35:17.930 DEBUG RouteDefinition matched: order-service
+15:35:17.930 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:35:17.933 DEBUG RouteDefinition matched: inventory-service
+15:35:17.933 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:35:17.937 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:35:17.972 DEBUG RouteDefinition matched: discovery-server
+15:35:17.972 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:35:17.976 DEBUG RouteDefinition matched: discovery-server-static
+15:35:18.043 DEBUG New routes count: 5
+15:35:48.086 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:35:48.096 DEBUG RouteDefinition matched: product-service
+15:35:48.097 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:35:48.104 DEBUG RouteDefinition matched: order-service
+15:35:48.104 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:35:48.107 DEBUG RouteDefinition matched: inventory-service
+15:35:48.107 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:35:48.112 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:35:48.117 DEBUG RouteDefinition matched: discovery-server
+15:35:48.117 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:35:48.120 DEBUG RouteDefinition matched: discovery-server-static
+15:35:48.125 DEBUG New routes count: 5
+15:36:19.723 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:36:20.371 DEBUG RouteDefinition matched: product-service
+15:36:20.372 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:36:20.375 DEBUG RouteDefinition matched: order-service
+15:36:20.375 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:36:20.377 DEBUG RouteDefinition matched: inventory-service
+15:36:20.377 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:36:20.380 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:36:20.417 DEBUG RouteDefinition matched: discovery-server
+15:36:20.417 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:36:20.441 DEBUG RouteDefinition matched: discovery-server-static
+15:36:20.469 DEBUG New routes count: 5
+15:36:50.623 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:36:50.839 DEBUG RouteDefinition matched: product-service
+15:36:50.840 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:36:50.842 DEBUG RouteDefinition matched: order-service
+15:36:50.843 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:36:50.846 DEBUG RouteDefinition matched: inventory-service
+15:36:50.846 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:36:50.848 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:36:50.886 DEBUG RouteDefinition matched: discovery-server
+15:36:50.886 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:36:50.906 DEBUG RouteDefinition matched: discovery-server-static
+15:36:50.926 DEBUG New routes count: 5
+15:37:22.706 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:37:23.051 DEBUG RouteDefinition matched: product-service
+15:37:23.053 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:37:23.056 DEBUG RouteDefinition matched: order-service
+15:37:23.057 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:37:23.064 DEBUG RouteDefinition matched: inventory-service
+15:37:23.064 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:37:23.069 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:37:23.116 DEBUG RouteDefinition matched: discovery-server
+15:37:23.116 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:37:23.125 DEBUG RouteDefinition matched: discovery-server-static
+15:37:23.149 DEBUG New routes count: 5
+15:37:53.624 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:37:53.794 DEBUG RouteDefinition matched: product-service
+15:37:53.796 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:37:53.807 DEBUG RouteDefinition matched: order-service
+15:37:53.807 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:37:53.817 DEBUG RouteDefinition matched: inventory-service
+15:37:53.817 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:37:53.818 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:37:53.849 DEBUG RouteDefinition matched: discovery-server
+15:37:53.849 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:37:53.856 DEBUG RouteDefinition matched: discovery-server-static
+15:37:53.870 DEBUG New routes count: 5
+15:37:55.365 INFO  Resolving eureka endpoints via configuration
+15:38:25.412 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:38:25.768 DEBUG RouteDefinition matched: product-service
+15:38:25.770 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:38:25.785 DEBUG RouteDefinition matched: order-service
+15:38:25.785 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:38:25.804 DEBUG RouteDefinition matched: inventory-service
+15:38:25.804 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:38:25.809 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:38:25.875 DEBUG RouteDefinition matched: discovery-server
+15:38:25.875 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:38:25.896 DEBUG RouteDefinition matched: discovery-server-static
+15:38:25.924 DEBUG New routes count: 5
+15:38:57.190 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:38:57.535 DEBUG RouteDefinition matched: product-service
+15:38:57.537 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:38:57.560 DEBUG RouteDefinition matched: order-service
+15:38:57.560 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:38:57.564 DEBUG RouteDefinition matched: inventory-service
+15:38:57.565 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:38:57.569 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:38:57.605 DEBUG RouteDefinition matched: discovery-server
+15:38:57.605 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:38:57.617 DEBUG RouteDefinition matched: discovery-server-static
+15:38:57.685 DEBUG New routes count: 5
+15:39:28.583 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:39:29.268 DEBUG RouteDefinition matched: product-service
+15:39:29.269 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:39:29.282 DEBUG RouteDefinition matched: order-service
+15:39:29.282 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:39:29.284 DEBUG RouteDefinition matched: inventory-service
+15:39:29.284 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:39:29.294 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:39:29.380 DEBUG RouteDefinition matched: discovery-server
+15:39:29.381 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:39:29.433 DEBUG RouteDefinition matched: discovery-server-static
+15:39:29.512 DEBUG New routes count: 5
+15:40:00.282 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:40:00.679 DEBUG RouteDefinition matched: product-service
+15:40:00.681 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:40:00.685 DEBUG RouteDefinition matched: order-service
+15:40:00.685 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:40:00.689 DEBUG RouteDefinition matched: inventory-service
+15:40:00.690 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:40:00.694 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:40:00.733 DEBUG RouteDefinition matched: discovery-server
+15:40:00.733 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:40:00.741 DEBUG RouteDefinition matched: discovery-server-static
+15:40:00.764 DEBUG New routes count: 5
+15:40:30.881 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:40:31.007 DEBUG RouteDefinition matched: product-service
+15:40:31.008 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:40:31.014 DEBUG RouteDefinition matched: order-service
+15:40:31.014 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:40:31.017 DEBUG RouteDefinition matched: inventory-service
+15:40:31.018 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:40:31.021 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:40:31.044 DEBUG RouteDefinition matched: discovery-server
+15:40:31.044 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:40:31.048 DEBUG RouteDefinition matched: discovery-server-static
+15:40:31.063 DEBUG New routes count: 5
+15:41:03.054 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:41:03.317 DEBUG RouteDefinition matched: product-service
+15:41:03.318 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:41:03.324 DEBUG RouteDefinition matched: order-service
+15:41:03.324 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:41:03.330 DEBUG RouteDefinition matched: inventory-service
+15:41:03.331 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:41:03.335 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:41:03.433 DEBUG RouteDefinition matched: discovery-server
+15:41:03.433 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:41:03.443 DEBUG RouteDefinition matched: discovery-server-static
+15:41:03.494 DEBUG New routes count: 5
+15:41:33.521 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:41:33.526 DEBUG RouteDefinition matched: product-service
+15:41:33.526 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:41:33.530 DEBUG RouteDefinition matched: order-service
+15:41:33.530 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:41:33.535 DEBUG RouteDefinition matched: inventory-service
+15:41:33.535 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:41:33.544 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:41:33.548 DEBUG RouteDefinition matched: discovery-server
+15:41:33.548 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:41:33.551 DEBUG RouteDefinition matched: discovery-server-static
+15:41:33.553 DEBUG New routes count: 5
+15:42:07.033 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 22 more
+
+15:42:07.033 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 19 more
+
+15:42:07.084 WARN  Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+15:42:07.084 WARN  Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+15:42:08.454 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 23 more
+
+15:42:08.457 WARN  Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+15:42:08.460 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:42:08.488 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 20 more
+
+15:42:08.489 WARN  Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+15:42:08.490 ERROR DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+15:42:40.874 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 23 more
+
+15:42:40.881 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 20 more
+
+15:42:40.922 WARN  Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+15:42:41.264 WARN  Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/API-GATEWAY/localhost:api-gateway:9090": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+15:42:41.267 ERROR DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+15:42:41.272 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:42:55.631 INFO  Resolving eureka endpoints via configuration
+15:43:13.824 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:43:14.098 DEBUG RouteDefinition matched: product-service
+15:43:14.098 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:43:14.101 DEBUG RouteDefinition matched: order-service
+15:43:14.101 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:43:14.105 DEBUG RouteDefinition matched: inventory-service
+15:43:14.105 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:43:14.109 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:43:14.201 DEBUG RouteDefinition matched: discovery-server
+15:43:14.204 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:43:14.210 DEBUG RouteDefinition matched: discovery-server-static
+15:43:14.247 DEBUG New routes count: 5
+15:43:14.528 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=Error while extracting response for type [class com.netflix.appinfo.InstanceInfo] and content type [application/json] stacktrace=org.springframework.web.client.RestClientException: Error while extracting response for type [class com.netflix.appinfo.InstanceInfo] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:118)
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1132)
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1115)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:865)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Root name ('timestamp') does not match expected ('instance') for type `com.netflix.appinfo.InstanceInfo`
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:103)
+	... 23 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Root name ('timestamp') does not match expected ('instance') for type `com.netflix.appinfo.InstanceInfo`
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2] (through reference chain: com.netflix.appinfo.InstanceInfo["timestamp"])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportPropertyInputMismatch(DeserializationContext.java:1781)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportPropertyInputMismatch(DeserializationContext.java:1797)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext._unwrapAndDeserialize(DefaultDeserializationContext.java:348)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:320)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 25 more
+
+15:43:14.532 WARN  Request execution failed with message: Error while extracting response for type [class com.netflix.appinfo.InstanceInfo] and content type [application/json]
+15:43:14.534 ERROR DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+15:43:44.333 INFO  Disable delta property : false
+15:43:44.402 INFO  Single vip registry refresh property : null
+15:43:44.402 INFO  Force full registry fetch : false
+15:43:44.402 INFO  Application is null : false
+15:43:44.403 INFO  Registered Applications size is zero : true
+15:43:44.404 INFO  Application version is -1: false
+15:43:44.406 INFO  Getting all instance registry info from the eureka server
+15:43:45.298 INFO  The response status is 200
+15:43:45.431 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:43:45.799 DEBUG RouteDefinition matched: product-service
+15:43:45.801 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:43:45.807 DEBUG RouteDefinition matched: order-service
+15:43:45.807 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:43:45.809 DEBUG RouteDefinition matched: inventory-service
+15:43:45.809 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:43:45.818 INFO  Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=Error while extracting response for type [class com.netflix.appinfo.InstanceInfo] and content type [application/json] stacktrace=org.springframework.web.client.RestClientException: Error while extracting response for type [class com.netflix.appinfo.InstanceInfo] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:118)
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1132)
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1115)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:865)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Root name ('timestamp') does not match expected ('instance') for type `com.netflix.appinfo.InstanceInfo`
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:103)
+	... 23 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Root name ('timestamp') does not match expected ('instance') for type `com.netflix.appinfo.InstanceInfo`
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2] (through reference chain: com.netflix.appinfo.InstanceInfo["timestamp"])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportPropertyInputMismatch(DeserializationContext.java:1781)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportPropertyInputMismatch(DeserializationContext.java:1797)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext._unwrapAndDeserialize(DefaultDeserializationContext.java:348)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:320)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 25 more
+
+15:43:45.822 WARN  Request execution failed with message: Error while extracting response for type [class com.netflix.appinfo.InstanceInfo] and content type [application/json]
+15:43:45.824 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:43:45.823 ERROR DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+15:43:45.864 DEBUG RouteDefinition matched: discovery-server
+15:43:45.865 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:43:45.869 DEBUG RouteDefinition matched: discovery-server-static
+15:43:45.907 DEBUG New routes count: 5
+15:43:53.724 INFO  Unregistering application API-GATEWAY with eureka with status DOWN
+15:43:53.729 INFO  Saw local status change event StatusChangeEvent [timestamp=1676036633729, current=DOWN, previous=UP]
+15:43:53.733 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090: registering service...
+15:43:57.479 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - registration status: 204
+15:43:59.085 INFO  Shutting down DiscoveryClient ...
+15:44:02.204 INFO  Unregistering ...
+15:44:03.479 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - deregister  status: 200
+15:44:03.655 INFO  Completed shut down of DiscoveryClient
+15:45:42.760 INFO  HV000001: Hibernate Validator 8.0.0.Final
+15:45:43.002 INFO  Starting ApiGatewayApplication using Java 17.0.5 with PID 16008 (C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project\api-gateway\target\classes started by Reem in C:\Users\Reem\Desktop\Fifth Year\Distributed System\LABS\mini-project)
+15:45:43.004 INFO  No active profile set, falling back to 1 default profile: "default"
+15:45:45.137 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayReactiveLoadBalancerClientAutoConfiguration#gatewayLoadBalancerClientFilter matched
+15:45:45.143 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayReactiveLoadBalancerClientAutoConfiguration#loadBalancerServiceInstanceCookieFilter matched
+15:45:45.165 TRACE Condition GatewayAutoConfiguration.OnVerboseDisabledCondition on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$GatewayActuatorConfiguration#gatewayLegacyControllerEndpoint did not match due to NoneNestedConditions 1 matched 0 did not; NestedCondition on GatewayAutoConfiguration.OnVerboseDisabledCondition.VerboseDisabled @ConditionalOnProperty (spring.cloud.gateway.actuator.verbose.enabled) matched
+15:45:45.193 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#routingFilter matched
+15:45:45.194 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#nettyWriteResponseFilter matched
+15:45:45.195 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#reactorNettyWebSocketClient matched
+15:45:45.196 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration#reactorNettyRequestUpgradeStrategy matched
+15:45:45.275 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#adaptCachedBodyGlobalFilter matched
+15:45:45.276 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeCachedBodyFilter matched
+15:45:45.276 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#routeToRequestUrlFilter matched
+15:45:45.277 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#forwardRoutingFilter matched
+15:45:45.278 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#forwardPathFilter matched
+15:45:45.280 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#webSocketService matched
+15:45:45.281 TRACE Condition OnEnabledGlobalFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#websocketRoutingFilter matched
+15:45:45.282 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#weightCalculatorWebFilter matched
+15:45:45.283 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#afterRoutePredicateFactory matched
+15:45:45.284 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#beforeRoutePredicateFactory matched
+15:45:45.284 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#betweenRoutePredicateFactory matched
+15:45:45.285 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#cookieRoutePredicateFactory matched
+15:45:45.286 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#headerRoutePredicateFactory matched
+15:45:45.287 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#hostRoutePredicateFactory matched
+15:45:45.288 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#methodRoutePredicateFactory matched
+15:45:45.289 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#pathRoutePredicateFactory matched
+15:45:45.290 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#queryRoutePredicateFactory matched
+15:45:45.291 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#readBodyPredicateFactory matched
+15:45:45.292 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#remoteAddrRoutePredicateFactory matched
+15:45:45.293 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#xForwardedRemoteAddrRoutePredicateFactory matched
+15:45:45.293 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#weightRoutePredicateFactory matched
+15:45:45.294 TRACE Condition OnEnabledPredicate on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#cloudFoundryRouteServiceRoutePredicateFactory matched
+15:45:45.296 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addRequestHeaderGatewayFilterFactory matched
+15:45:45.297 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addRequestHeadersIfNotPresentGatewayFilterFactory matched
+15:45:45.299 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#mapRequestHeaderGatewayFilterFactory matched
+15:45:45.300 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addRequestParameterGatewayFilterFactory matched
+15:45:45.301 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#addResponseHeaderGatewayFilterFactory matched
+15:45:45.302 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#modifyRequestBodyGatewayFilterFactory matched
+15:45:45.303 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#dedupeResponseHeaderGatewayFilterFactory matched
+15:45:45.304 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#modifyResponseBodyGatewayFilterFactory matched
+15:45:45.305 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#cacheRequestBodyGatewayFilterFactory matched
+15:45:45.306 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#prefixPathGatewayFilterFactory matched
+15:45:45.307 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#preserveHostHeaderGatewayFilterFactory matched
+15:45:45.308 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#redirectToGatewayFilterFactory matched
+15:45:45.309 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeJsonAttributesResponseBodyGatewayFilterFactory matched
+15:45:45.310 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeRequestHeaderGatewayFilterFactory matched
+15:45:45.311 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeRequestParameterGatewayFilterFactory matched
+15:45:45.313 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#removeResponseHeaderGatewayFilterFactory matched
+15:45:45.333 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#rewritePathGatewayFilterFactory matched
+15:45:45.333 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#retryGatewayFilterFactory matched
+15:45:45.334 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setPathGatewayFilterFactory matched
+15:45:45.335 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#secureHeadersGatewayFilterFactory matched
+15:45:45.336 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setRequestHeaderGatewayFilterFactory matched
+15:45:45.337 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setRequestHostHeaderGatewayFilterFactory matched
+15:45:45.338 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setResponseHeaderGatewayFilterFactory matched
+15:45:45.339 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#rewriteResponseHeaderGatewayFilterFactory matched
+15:45:45.339 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#rewriteLocationResponseHeaderGatewayFilterFactory matched
+15:45:45.340 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#setStatusGatewayFilterFactory matched
+15:45:45.341 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#saveSessionGatewayFilterFactory matched
+15:45:45.342 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#stripPrefixGatewayFilterFactory matched
+15:45:45.343 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#requestHeaderToRequestUriGatewayFilterFactory matched
+15:45:45.344 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#requestSizeGatewayFilterFactory matched
+15:45:45.345 TRACE Condition OnEnabledFilter on org.springframework.cloud.gateway.config.GatewayAutoConfiguration#requestHeaderSizeGatewayFilterFactory matched
+15:45:46.796 INFO  BeanFactory id=7cc9d4cf-4b0b-3a8d-a24a-4e4f2f71f2ad
+15:45:47.214 INFO  Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:45:47.260 INFO  Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:45:47.265 INFO  Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:45:52.662 INFO  Cannot determine local hostname
+15:45:53.218 DEBUG Routes supplied from Gateway Properties: [RouteDefinition{id='product-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/api/product}}], filters=[], uri=lb://product-service, order=0, metadata={}}, RouteDefinition{id='order-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/api/order}}], filters=[], uri=lb://order-service, order=0, metadata={}}, RouteDefinition{id='inventory-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/api/inventory}}], filters=[], uri=lb://inventory-service, order=0, metadata={}}, RouteDefinition{id='discovery-server', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/eureka/web}}], filters=[FilterDefinition{name='SetPath', args={_genkey_0=/}}], uri=http://localhost:8761, order=0, metadata={}}, RouteDefinition{id='discovery-server-static', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/eureka/**}}], filters=[], uri=http://localhost:8761, order=0, metadata={}}]
+15:45:53.597 INFO  Loaded RoutePredicateFactory [After]
+15:45:53.598 INFO  Loaded RoutePredicateFactory [Before]
+15:45:53.598 INFO  Loaded RoutePredicateFactory [Between]
+15:45:53.599 INFO  Loaded RoutePredicateFactory [Cookie]
+15:45:53.599 INFO  Loaded RoutePredicateFactory [Header]
+15:45:53.599 INFO  Loaded RoutePredicateFactory [Host]
+15:45:53.599 INFO  Loaded RoutePredicateFactory [Method]
+15:45:53.600 INFO  Loaded RoutePredicateFactory [Path]
+15:45:53.600 INFO  Loaded RoutePredicateFactory [Query]
+15:45:53.600 INFO  Loaded RoutePredicateFactory [ReadBody]
+15:45:53.600 INFO  Loaded RoutePredicateFactory [RemoteAddr]
+15:45:53.601 INFO  Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:45:53.601 INFO  Loaded RoutePredicateFactory [Weight]
+15:45:53.601 INFO  Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:45:55.587 INFO  Cannot determine local hostname
+15:45:57.335 INFO  Cannot determine local hostname
+15:45:58.156 INFO  Exposing 1 endpoint(s) beneath base path '/actuator'
+15:45:59.969 INFO  Eureka HTTP Client uses RestTemplate.
+15:46:00.780 WARN  Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+15:46:01.063 INFO  Setting initial instance status as: STARTING
+15:46:01.637 INFO  Initializing Eureka in region us-east-1
+15:46:01.648 INFO  Resolving eureka endpoints via configuration
+15:46:01.825 INFO  Disable delta property : false
+15:46:01.826 INFO  Single vip registry refresh property : null
+15:46:01.826 INFO  Force full registry fetch : false
+15:46:01.826 INFO  Application is null : false
+15:46:01.826 INFO  Registered Applications size is zero : true
+15:46:01.826 INFO  Application version is -1: true
+15:46:01.826 INFO  Getting all instance registry info from the eureka server
+15:46:04.578 INFO  The response status is 200
+15:46:04.624 INFO  Starting heartbeat executor: renew interval is: 30
+15:46:04.646 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+15:46:04.805 INFO  Discovery Client initialized at timestamp 1676036764780 with initial instances count: 0
+15:46:05.147 INFO  Registering application API-GATEWAY with eureka with status UP
+15:46:05.149 INFO  Saw local status change event StatusChangeEvent [timestamp=1676036765148, current=UP, previous=STARTING]
+15:46:05.155 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090: registering service...
+15:46:05.236 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:46:05.521 DEBUG RouteDefinition matched: product-service
+15:46:05.521 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:46:05.524 DEBUG RouteDefinition matched: order-service
+15:46:05.524 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:46:05.526 DEBUG RouteDefinition matched: inventory-service
+15:46:05.527 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:46:05.529 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:46:05.557 DEBUG RouteDefinition matched: discovery-server
+15:46:05.558 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:46:05.560 DEBUG RouteDefinition matched: discovery-server-static
+15:46:05.583 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - registration status: 204
+15:46:05.667 DEBUG New routes count: 5
+15:46:07.008 INFO  Netty started on port 9090
+15:46:07.013 INFO  Updating port to 9090
+15:46:11.158 INFO  Cannot determine local hostname
+15:46:14.697 INFO  Cannot determine local hostname
+15:46:15.218 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:46:15.337 DEBUG RouteDefinition matched: product-service
+15:46:15.337 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:46:15.341 DEBUG RouteDefinition matched: order-service
+15:46:15.341 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:46:15.352 DEBUG RouteDefinition matched: inventory-service
+15:46:15.353 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:46:15.393 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:46:15.429 DEBUG RouteDefinition matched: discovery-server
+15:46:15.429 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:46:15.434 DEBUG RouteDefinition matched: discovery-server-static
+15:46:15.451 DEBUG New routes count: 5
+15:46:15.579 INFO  Started ApiGatewayApplication in 37.161 seconds (process running for 40.374)
+15:46:34.900 INFO  Disable delta property : false
+15:46:34.954 INFO  Single vip registry refresh property : null
+15:46:34.955 INFO  Force full registry fetch : false
+15:46:34.955 INFO  Application is null : false
+15:46:34.956 INFO  Registered Applications size is zero : true
+15:46:34.956 INFO  Application version is -1: false
+15:46:34.959 INFO  Getting all instance registry info from the eureka server
+15:46:35.915 INFO  The response status is 200
+15:46:36.054 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:46:36.126 DEBUG RouteDefinition matched: product-service
+15:46:36.126 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:46:36.128 DEBUG RouteDefinition matched: order-service
+15:46:36.129 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:46:36.133 DEBUG RouteDefinition matched: inventory-service
+15:46:36.133 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:46:36.135 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:46:36.140 DEBUG RouteDefinition matched: discovery-server
+15:46:36.141 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:46:36.145 DEBUG RouteDefinition matched: discovery-server-static
+15:46:36.153 DEBUG New routes count: 5
+15:47:07.108 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:47:07.313 DEBUG RouteDefinition matched: product-service
+15:47:07.313 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:47:07.319 DEBUG RouteDefinition matched: order-service
+15:47:07.319 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:47:07.323 DEBUG RouteDefinition matched: inventory-service
+15:47:07.324 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:47:07.331 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:47:07.387 DEBUG RouteDefinition matched: discovery-server
+15:47:07.388 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:47:07.393 DEBUG RouteDefinition matched: discovery-server-static
+15:47:07.411 DEBUG New routes count: 5
+15:47:37.632 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:47:37.812 DEBUG RouteDefinition matched: product-service
+15:47:37.812 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:47:37.816 DEBUG RouteDefinition matched: order-service
+15:47:37.816 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:47:37.826 DEBUG RouteDefinition matched: inventory-service
+15:47:37.826 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:47:37.829 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:47:37.847 DEBUG RouteDefinition matched: discovery-server
+15:47:37.847 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:47:37.851 DEBUG RouteDefinition matched: discovery-server-static
+15:47:37.882 DEBUG New routes count: 5
+15:48:08.448 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:48:09.571 DEBUG RouteDefinition matched: product-service
+15:48:09.573 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:48:09.578 DEBUG RouteDefinition matched: order-service
+15:48:09.578 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:48:09.600 DEBUG RouteDefinition matched: inventory-service
+15:48:09.600 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:48:09.607 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:48:09.649 DEBUG RouteDefinition matched: discovery-server
+15:48:09.650 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:48:09.673 DEBUG RouteDefinition matched: discovery-server-static
+15:48:09.712 DEBUG New routes count: 5
+15:48:39.934 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:48:40.087 DEBUG RouteDefinition matched: product-service
+15:48:40.087 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:48:40.099 DEBUG RouteDefinition matched: order-service
+15:48:40.101 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:48:40.118 DEBUG RouteDefinition matched: inventory-service
+15:48:40.119 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:48:40.126 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:48:40.149 DEBUG RouteDefinition matched: discovery-server
+15:48:40.149 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:48:40.156 DEBUG RouteDefinition matched: discovery-server-static
+15:48:40.170 DEBUG New routes count: 5
+15:49:11.922 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:49:13.049 DEBUG RouteDefinition matched: product-service
+15:49:13.050 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:49:13.055 DEBUG RouteDefinition matched: order-service
+15:49:13.060 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:49:13.070 DEBUG RouteDefinition matched: inventory-service
+15:49:13.070 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:49:13.106 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:49:13.209 DEBUG RouteDefinition matched: discovery-server
+15:49:13.210 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:49:13.253 DEBUG RouteDefinition matched: discovery-server-static
+15:49:13.359 DEBUG New routes count: 5
+15:49:44.998 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:49:45.385 DEBUG RouteDefinition matched: product-service
+15:49:45.386 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:49:45.390 DEBUG RouteDefinition matched: order-service
+15:49:45.391 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:49:45.443 DEBUG RouteDefinition matched: inventory-service
+15:49:45.444 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:49:45.467 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:49:45.514 DEBUG RouteDefinition matched: discovery-server
+15:49:45.514 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:49:45.529 DEBUG RouteDefinition matched: discovery-server-static
+15:49:45.594 DEBUG New routes count: 5
+15:50:15.819 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:50:16.028 DEBUG RouteDefinition matched: product-service
+15:50:16.028 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:50:16.033 DEBUG RouteDefinition matched: order-service
+15:50:16.034 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:50:16.037 DEBUG RouteDefinition matched: inventory-service
+15:50:16.038 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:50:16.042 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:50:16.067 DEBUG RouteDefinition matched: discovery-server
+15:50:16.067 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:50:16.072 DEBUG RouteDefinition matched: discovery-server-static
+15:50:16.084 DEBUG New routes count: 5
+15:50:47.193 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:50:47.481 DEBUG RouteDefinition matched: product-service
+15:50:47.481 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:50:47.485 DEBUG RouteDefinition matched: order-service
+15:50:47.486 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:50:47.513 DEBUG RouteDefinition matched: inventory-service
+15:50:47.514 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:50:47.524 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:50:47.565 DEBUG RouteDefinition matched: discovery-server
+15:50:47.565 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:50:47.575 DEBUG RouteDefinition matched: discovery-server-static
+15:50:47.607 DEBUG New routes count: 5
+15:51:02.002 INFO  Resolving eureka endpoints via configuration
+15:51:18.066 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:51:18.484 DEBUG RouteDefinition matched: product-service
+15:51:18.485 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:51:18.490 DEBUG RouteDefinition matched: order-service
+15:51:18.492 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:51:18.498 DEBUG RouteDefinition matched: inventory-service
+15:51:18.499 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:51:18.526 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:51:18.726 DEBUG RouteDefinition matched: discovery-server
+15:51:18.727 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:51:18.748 DEBUG RouteDefinition matched: discovery-server-static
+15:51:18.777 DEBUG New routes count: 5
+15:51:49.155 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:51:49.626 DEBUG RouteDefinition matched: product-service
+15:51:49.627 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:51:49.840 DEBUG RouteDefinition matched: order-service
+15:51:49.846 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:51:49.861 DEBUG RouteDefinition matched: inventory-service
+15:51:49.861 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:51:49.868 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:51:49.906 DEBUG RouteDefinition matched: discovery-server
+15:51:49.906 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:51:49.915 DEBUG RouteDefinition matched: discovery-server-static
+15:51:49.938 DEBUG New routes count: 5
+15:52:20.116 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:52:20.508 DEBUG RouteDefinition matched: product-service
+15:52:20.509 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:52:20.521 DEBUG RouteDefinition matched: order-service
+15:52:20.521 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:52:20.524 DEBUG RouteDefinition matched: inventory-service
+15:52:20.525 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:52:20.547 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:52:20.599 DEBUG RouteDefinition matched: discovery-server
+15:52:20.599 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:52:20.611 DEBUG RouteDefinition matched: discovery-server-static
+15:52:20.636 DEBUG New routes count: 5
+15:52:51.103 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:52:51.664 DEBUG RouteDefinition matched: product-service
+15:52:51.669 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:52:51.676 DEBUG RouteDefinition matched: order-service
+15:52:51.677 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:52:51.720 DEBUG RouteDefinition matched: inventory-service
+15:52:51.720 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:52:51.742 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:52:51.801 DEBUG RouteDefinition matched: discovery-server
+15:52:51.801 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:52:51.815 DEBUG RouteDefinition matched: discovery-server-static
+15:52:51.854 DEBUG New routes count: 5
+15:53:22.259 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:53:22.893 DEBUG RouteDefinition matched: product-service
+15:53:22.894 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:53:22.896 DEBUG RouteDefinition matched: order-service
+15:53:22.897 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:53:22.901 DEBUG RouteDefinition matched: inventory-service
+15:53:22.901 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:53:22.925 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:53:23.096 DEBUG RouteDefinition matched: discovery-server
+15:53:23.097 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:53:23.136 DEBUG RouteDefinition matched: discovery-server-static
+15:53:23.221 DEBUG New routes count: 5
+15:53:54.909 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:53:55.319 DEBUG RouteDefinition matched: product-service
+15:53:55.320 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:53:55.332 DEBUG RouteDefinition matched: order-service
+15:53:55.333 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:53:55.337 DEBUG RouteDefinition matched: inventory-service
+15:53:55.337 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:53:55.356 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:53:55.408 DEBUG RouteDefinition matched: discovery-server
+15:53:55.410 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:53:55.423 DEBUG RouteDefinition matched: discovery-server-static
+15:53:55.461 DEBUG New routes count: 5
+15:54:26.245 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:54:26.485 DEBUG RouteDefinition matched: product-service
+15:54:26.486 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:54:26.488 DEBUG RouteDefinition matched: order-service
+15:54:26.488 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:54:26.496 DEBUG RouteDefinition matched: inventory-service
+15:54:26.496 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:54:26.499 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:54:26.522 DEBUG RouteDefinition matched: discovery-server
+15:54:26.523 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:54:26.529 DEBUG RouteDefinition matched: discovery-server-static
+15:54:26.560 DEBUG New routes count: 5
+15:54:57.564 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:54:57.914 DEBUG RouteDefinition matched: product-service
+15:54:57.914 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:54:57.916 DEBUG RouteDefinition matched: order-service
+15:54:57.917 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:54:57.975 DEBUG RouteDefinition matched: inventory-service
+15:54:57.976 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:54:57.987 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:54:58.013 DEBUG RouteDefinition matched: discovery-server
+15:54:58.014 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:54:58.021 DEBUG RouteDefinition matched: discovery-server-static
+15:54:58.043 DEBUG New routes count: 5
+15:55:28.475 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:55:29.140 DEBUG RouteDefinition matched: product-service
+15:55:29.140 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:55:29.144 DEBUG RouteDefinition matched: order-service
+15:55:29.144 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:55:29.147 DEBUG RouteDefinition matched: inventory-service
+15:55:29.147 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:55:29.153 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:55:29.195 DEBUG RouteDefinition matched: discovery-server
+15:55:29.195 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:55:29.202 DEBUG RouteDefinition matched: discovery-server-static
+15:55:29.247 DEBUG New routes count: 5
+15:55:59.483 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:55:59.715 DEBUG RouteDefinition matched: product-service
+15:55:59.716 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:55:59.719 DEBUG RouteDefinition matched: order-service
+15:55:59.719 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:55:59.731 DEBUG RouteDefinition matched: inventory-service
+15:55:59.731 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:55:59.752 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:55:59.777 DEBUG RouteDefinition matched: discovery-server
+15:55:59.778 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:55:59.781 DEBUG RouteDefinition matched: discovery-server-static
+15:55:59.798 DEBUG New routes count: 5
+15:56:02.192 INFO  Resolving eureka endpoints via configuration
+15:56:30.579 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:56:31.001 DEBUG RouteDefinition matched: product-service
+15:56:31.001 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:56:31.005 DEBUG RouteDefinition matched: order-service
+15:56:31.006 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:56:31.014 DEBUG RouteDefinition matched: inventory-service
+15:56:31.014 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:56:31.029 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:56:31.237 DEBUG RouteDefinition matched: discovery-server
+15:56:31.237 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:56:31.246 DEBUG RouteDefinition matched: discovery-server-static
+15:56:31.268 DEBUG New routes count: 5
+15:57:02.116 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:57:02.438 DEBUG RouteDefinition matched: product-service
+15:57:02.439 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:57:02.441 DEBUG RouteDefinition matched: order-service
+15:57:02.442 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:57:02.443 DEBUG RouteDefinition matched: inventory-service
+15:57:02.443 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:57:02.470 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:57:02.517 DEBUG RouteDefinition matched: discovery-server
+15:57:02.517 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:57:02.523 DEBUG RouteDefinition matched: discovery-server-static
+15:57:02.542 DEBUG New routes count: 5
+15:57:34.397 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:57:35.428 DEBUG RouteDefinition matched: product-service
+15:57:35.429 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:57:35.525 DEBUG RouteDefinition matched: order-service
+15:57:35.526 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:57:35.528 DEBUG RouteDefinition matched: inventory-service
+15:57:35.529 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:57:35.638 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:57:35.712 DEBUG RouteDefinition matched: discovery-server
+15:57:35.712 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:57:35.738 DEBUG RouteDefinition matched: discovery-server-static
+15:57:35.792 DEBUG New routes count: 5
+15:58:06.276 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:58:07.394 DEBUG RouteDefinition matched: product-service
+15:58:07.398 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:58:07.406 DEBUG RouteDefinition matched: order-service
+15:58:07.407 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:58:07.412 DEBUG RouteDefinition matched: inventory-service
+15:58:07.413 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:58:07.430 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:58:07.508 DEBUG RouteDefinition matched: discovery-server
+15:58:07.508 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:58:07.526 DEBUG RouteDefinition matched: discovery-server-static
+15:58:07.557 DEBUG New routes count: 5
+15:58:37.772 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:58:37.968 DEBUG RouteDefinition matched: product-service
+15:58:37.970 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:58:37.979 DEBUG RouteDefinition matched: order-service
+15:58:37.980 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:58:37.995 DEBUG RouteDefinition matched: inventory-service
+15:58:37.996 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:58:37.999 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:58:38.025 DEBUG RouteDefinition matched: discovery-server
+15:58:38.025 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:58:38.033 DEBUG RouteDefinition matched: discovery-server-static
+15:58:38.052 DEBUG New routes count: 5
+15:59:08.404 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:59:08.767 DEBUG RouteDefinition matched: product-service
+15:59:08.769 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:59:08.770 DEBUG RouteDefinition matched: order-service
+15:59:08.780 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:59:08.791 DEBUG RouteDefinition matched: inventory-service
+15:59:08.800 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:59:08.819 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:59:08.856 DEBUG RouteDefinition matched: discovery-server
+15:59:08.856 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:59:08.879 DEBUG RouteDefinition matched: discovery-server-static
+15:59:08.909 DEBUG New routes count: 5
+15:59:39.095 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+15:59:39.281 DEBUG RouteDefinition matched: product-service
+15:59:39.282 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+15:59:39.288 DEBUG RouteDefinition matched: order-service
+15:59:39.288 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+15:59:39.299 DEBUG RouteDefinition matched: inventory-service
+15:59:39.300 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+15:59:39.304 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+15:59:39.320 DEBUG RouteDefinition matched: discovery-server
+15:59:39.321 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+15:59:39.326 DEBUG RouteDefinition matched: discovery-server-static
+15:59:39.338 DEBUG New routes count: 5
+16:00:09.838 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+16:00:10.019 DEBUG RouteDefinition matched: product-service
+16:00:10.020 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+16:00:10.028 DEBUG RouteDefinition matched: order-service
+16:00:10.029 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+16:00:10.039 DEBUG RouteDefinition matched: inventory-service
+16:00:10.039 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+16:00:10.045 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+16:00:10.068 DEBUG RouteDefinition matched: discovery-server
+16:00:10.068 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+16:00:10.076 DEBUG RouteDefinition matched: discovery-server-static
+16:00:10.094 DEBUG New routes count: 5
+16:00:40.288 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+16:00:40.382 DEBUG RouteDefinition matched: product-service
+16:00:40.385 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+16:00:40.388 DEBUG RouteDefinition matched: order-service
+16:00:40.388 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+16:00:40.390 DEBUG RouteDefinition matched: inventory-service
+16:00:40.391 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+16:00:40.392 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+16:00:40.407 DEBUG RouteDefinition matched: discovery-server
+16:00:40.407 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+16:00:40.418 DEBUG RouteDefinition matched: discovery-server-static
+16:00:40.427 DEBUG New routes count: 5
+16:01:02.275 INFO  Resolving eureka endpoints via configuration
+16:01:11.146 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+16:01:11.289 DEBUG RouteDefinition matched: product-service
+16:01:11.290 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+16:01:11.296 DEBUG RouteDefinition matched: order-service
+16:01:11.304 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+16:01:11.307 DEBUG RouteDefinition matched: inventory-service
+16:01:11.307 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+16:01:11.312 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+16:01:11.331 DEBUG RouteDefinition matched: discovery-server
+16:01:11.331 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+16:01:11.352 DEBUG RouteDefinition matched: discovery-server-static
+16:01:11.364 DEBUG New routes count: 5
+16:01:42.350 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+16:01:42.577 DEBUG RouteDefinition matched: product-service
+16:01:42.578 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+16:01:42.580 DEBUG RouteDefinition matched: order-service
+16:01:42.581 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+16:01:42.582 DEBUG RouteDefinition matched: inventory-service
+16:01:42.582 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+16:01:42.584 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+16:01:42.619 DEBUG RouteDefinition matched: discovery-server
+16:01:42.619 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+16:01:42.629 DEBUG RouteDefinition matched: discovery-server-static
+16:01:42.647 DEBUG New routes count: 5
+16:02:14.694 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+16:02:14.887 DEBUG RouteDefinition matched: product-service
+16:02:14.888 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+16:02:14.890 DEBUG RouteDefinition matched: order-service
+16:02:14.891 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+16:02:14.895 DEBUG RouteDefinition matched: inventory-service
+16:02:14.898 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+16:02:14.905 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+16:02:14.927 DEBUG RouteDefinition matched: discovery-server
+16:02:14.927 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+16:02:14.937 DEBUG RouteDefinition matched: discovery-server-static
+16:02:14.951 DEBUG New routes count: 5
+16:02:45.606 DEBUG RouteDefinition product-service applying {_genkey_0=/api/product} to Path
+16:02:45.866 DEBUG RouteDefinition matched: product-service
+16:02:45.868 DEBUG RouteDefinition order-service applying {_genkey_0=/api/order} to Path
+16:02:45.873 DEBUG RouteDefinition matched: order-service
+16:02:45.873 DEBUG RouteDefinition inventory-service applying {_genkey_0=/api/inventory} to Path
+16:02:45.882 DEBUG RouteDefinition matched: inventory-service
+16:02:45.882 DEBUG RouteDefinition discovery-server applying {_genkey_0=/eureka/web} to Path
+16:02:45.885 DEBUG RouteDefinition discovery-server applying filter {_genkey_0=/} to SetPath
+16:02:45.929 DEBUG RouteDefinition matched: discovery-server
+16:02:45.930 DEBUG RouteDefinition discovery-server-static applying {_genkey_0=/eureka/**} to Path
+16:02:45.939 DEBUG RouteDefinition matched: discovery-server-static
+16:02:45.965 DEBUG New routes count: 5
+16:03:10.249 INFO  Unregistering application API-GATEWAY with eureka with status DOWN
+16:03:10.313 INFO  Saw local status change event StatusChangeEvent [timestamp=1676037790310, current=DOWN, previous=UP]
+16:03:10.321 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090: registering service...
+16:03:11.750 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - registration status: 204
+16:03:14.745 INFO  Shutting down DiscoveryClient ...
+16:03:17.754 WARN  task supervisor shutting down, can't accept the task
+16:03:17.789 INFO  Unregistering ...
+16:03:17.842 INFO  DiscoveryClient_API-GATEWAY/localhost:api-gateway:9090 - deregister  status: 200
+16:03:17.883 INFO  Completed shut down of DiscoveryClient
